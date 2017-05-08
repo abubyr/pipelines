@@ -1,4 +1,4 @@
 #!groovy
 node {
-  echo "Hello from GitHub"
+  echo "Hello from GitHub. Branch ${env.BRANCH_NAME}"
 }
